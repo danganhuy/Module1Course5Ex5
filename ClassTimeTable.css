@@ -1,0 +1,46 @@
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+#description {
+    position: relative;
+    color: blue;
+    width: 40%;
+    margin: 0 auto;
+}
+div h1 {
+    text-align: center;
+}
+div div {
+    display: inline-block;
+}
+.toTheLeft{
+    left: 0;
+}
+.toTheRight{
+    position: absolute;
+    right: 0;
+}
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 18px;
+}
+
+td:nth-child(1) {
+    text-align: center;
+    width: 75px;
+}
+td:nth-child(2), td:nth-child(3) {
+    width: 120px;
+}
+td:nth-child(n+4) {
+    width: 150px;
+}
+tr:nth-child(1) th:nth-child(n+2) {
+    background-color: yellow;
+}
+tr:nth-child(2) th {
+    background-color: orange;
+}
